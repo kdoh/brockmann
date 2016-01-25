@@ -1,0 +1,25 @@
+{
+  "name": "brockmann",
+  "version": "0.0.1",
+  "description": "Grid utilities to help your modernist sensibility.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdoh/brockmann"
+  },
+  "author": "Kyle Doherty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdoh/brockmann/issues"
+  },
+  "homepage": "https://github.com/kdoh/is_undefined",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "expect": "^1.13.4",
+    "mocha": "^2.3.4"
+  }
+}
